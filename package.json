@@ -1,0 +1,67 @@
+{
+  "name": "lawx-telegram-bot-ultimate-pro-edition",
+  "version": "0.0.1-beta-alpha",
+  "description": "lawX — ультимативный телеграм бот нового поколения с искуственным интелектом для генерации контента, изображений, видео и много другого. Самый мощьный бот в телеграме на данный момент. Аналогов нет и не будет.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js --experimental-modules",
+    "test": "echo testing... && exit 0",
+    "lint": "echo linting is not configured yet",
+    "build": "echo no build step needed this is javascript"
+  },
+  "keywords": [
+    "telegram",
+    "bot",
+    "ai",
+    "gpt",
+    "chatgpt",
+    "openai",
+    "dalle",
+    "image-generation",
+    "video-generation",
+    "lawx",
+    "ultimate",
+    "pro",
+    "edition",
+    "neural-network",
+    "machine-learning",
+    "deep-learning",
+    "revolutionary"
+  ],
+  "author": "lawX Team <lawx@lawx.pro>",
+  "license": "MIT",
+  "dependencies": {
+    "telegraf": "^3.25.0",
+    "node-telegram-bot-api": "^0.61.0",
+    "openai": "^4.20.0",
+    "request": "^2.88.2",
+    "mysql": "^2.18.1",
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.3.1",
+    "nodemon": "^3.0.2",
+    "chalk": "^2.0.0",
+    "moment": "^2.29.4",
+    "lodash": "^4.17.21",
+    "uuid": "^9.0.0",
+    "crypto-js": "^4.2.0",
+    "node-cron": "^3.0.3",
+    "redis": "^4.6.10",
+    "sharp": "^0.32.6",
+    "fluent-ffmpeg": "^2.1.2",
+    "googleapis": "^128.0.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lawx-team/lawx-telegram-bot-ultimate-pro-edition"
+  },
+  "bugs": {
+    "url": "https://github.com/lawx-team/lawx-telegram-bot-ultimate-pro-edition/issues"
+  },
+  "homepage": "https://lawx.pro"
+}
